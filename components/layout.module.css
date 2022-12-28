@@ -1,0 +1,26 @@
+/* 共通部分(骨格)に対するlayout.jsのためのcss */
+.container {
+  max-width: 1244px;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerImage {
+  width: 150px;
+  height: 150px;
+}
+
+.headerHomeImage {
+  width: 170px;
+  height: 170px;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
